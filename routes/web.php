@@ -16,7 +16,6 @@ Route::get('/', function () {
 });
 
 Route::post('/login', 'UserController@login');
-Route::get('/test', 'test@showToken');
 Route::post('/register', 'UserController@register');
 Route::get('/logout', 'UserController@login');
 
